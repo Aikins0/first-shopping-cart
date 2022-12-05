@@ -137,7 +137,7 @@ let TotalAmount = () => {
 
     return (label.innerHTML = `
     <h2>Total : Ghc ${amount}</h2>
-    <button class="checkout">Checkout</button>
+    <button onclick ="Checkout()"class="checkout">Checkout</button>
     <button onclick="clearCart()" class="removeAll">Clear Cart</button>
     `);
   } else return;
@@ -152,4 +152,10 @@ let clearCart = () => {
   generateCartItems();
   calculation();
   localStorage.setItem("data", JSON.stringify(basket));
+
 };
+let Checkout = () =>{
+window.location.href = '/checkout.html';
+ 
+}
+

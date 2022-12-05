@@ -61,12 +61,7 @@ a {
   background: #9f9fa3;
   cursor: pointer;
 }
-/* #search-input {
-  width: 300px;
-  height: 25px;
-  border-radius: 8px;
-  margin-top: 7px;
-} */
+
 .bi-search {
   font-size: 15px;
   color: white;
@@ -208,6 +203,41 @@ a {
     color: white;
     border-radius: 4px;
     padding: 3px 6px;
+  }
+
+  /* checkout */
+
+  #paymentForm {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    /* justify-content: center; */
+    /* padding: 100px; */
+  }
+
+  #paymentForm label {
+    /* margin: 100px; */
+    margin-bottom: 20px;
+  }
+
+  #paymentForm button {
+    width: 70px;
+    height: 30px;
+    color: white;
+    background-color: #114743;
+    border-radius: 4px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  #paymentForm input {
+    height: 25px;
+    width: 200px;
+    padding: 4px;
+    border-radius: 4px;
   }
 
   @media (max-width: 1000px) {
