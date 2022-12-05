@@ -214,6 +214,10 @@ a {
     gap: 1rem;
     font-family: sans-serif;
     font-weight: 700;
+    /* border: 2px solid rgb(107, 84, 84); */
+    border-radius: 10px;
+    padding: 30px;
+    margin: 0 50%;
     /* justify-content: center; */
     /* padding: 100px; */
   }
@@ -224,13 +228,15 @@ a {
   }
 
   #paymentForm button {
-    width: 70px;
+    width: 100px;
     height: 30px;
     color: white;
     background-color: #114743;
     border-radius: 4px;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    white-space: nowrap;
   }
 
   #paymentForm input {
@@ -238,6 +244,11 @@ a {
     width: 200px;
     padding: 4px;
     border-radius: 4px;
+    border-radius: 2px solid black;
+  }
+
+  form {
+    margin-top: 120px;
   }
 
   @media (max-width: 1000px) {
